@@ -1,0 +1,33 @@
+{namespace ptc=Tx_PtConference_ViewHelpers}
+
+<script type="text/javascript">
+    $(document).ready(function() {
+    	$('#scanInput').focus();
+	});
+</script>
+
+<div>
+	<ptc:HtmlDecode value="{attendeeStatus}" />
+</div>
+
+<div>
+	<ptc:TranslatedFlashMessages />
+</div>
+
+<div>
+	<f:form action='submit'>
+		<div style="margin-left:350px; padding:15px;">
+			<div>
+				<f:form.textbox name="scanInput" id="scanInput"/>
+			</div>
+		</div>
+	</f:form>
+</div>
+<div>
+	<div><h3>Goodies</h3></div>
+	<div><ptc:HtmlDecode value="{receiveGoodiesList}" /></div>
+	<div><h3>Shirts</h3></div>
+	<div><ptc:HtmlDecode value="{receiveShirtsList}" /></div>
+	<div><h3>Purchased Goods</h3></div>
+	<div><ptc:HtmlDecode value="{receiveArticlesList}" /></div>
+</div>

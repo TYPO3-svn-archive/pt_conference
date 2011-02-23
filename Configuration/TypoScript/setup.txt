@@ -1,0 +1,61 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.export.ts">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.persInfoBase.ts">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.eventSelector.ts">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.invoices.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.attendeeList.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.purchasedTickets.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.tShirtSizes.ts">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.attendeeStatus.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.checkInList.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.receiveGoodies.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.purchasedTutorials.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.badgePrintingList.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.voucherStats.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.ticketVoucher.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.productBuyer.ts">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.bestPaperVotingStats.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.bestPaperVoting.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.editArticleDataList.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pt_conference/Configuration/TypoScript/PTExtList/plugin.tx_ptextlist.settings.listConfig.bestCharVotingStats.ts">
+
+
+
+plugin.tx_ptconference.settings {
+	
+		persdataEditPid = {$config.pt_conference.persdataEditPid}
+		persdataListPid = {$config.pt_conference.persdataListPid}
+		
+		tShirtSizeInfoType = {$config.pt_conference.tShirtSizeInfoType}
+		
+		ticketCategory = {$config.pt_conference.ticketCategory}
+		tutorialCategory = {$config.pt_conference.tutorialCategory}
+		goodyCategory = {$config.pt_conference.goodyCategory}
+		physicalGoodsCategory = {$config.pt_conference.physicalGoodsCategory}
+}
+
+
+
+plugin.tx_ptconference._CSS_DEFAULT_STYLE (
+	input.f3-form-error {
+		background-color:#FF9F9F;
+		border: 1px #FF0000 solid;
+	}
+
+	.tx-ptconference-pi1 table {
+		border-collapse:separate;
+		border-spacing:10px;
+	}
+
+	.tx-ptconference-pi1 table th {
+		font-weight:bold;
+	}
+
+	.tx-ptconference-pi1 table td {
+		vertical-align:top;
+	}
+)

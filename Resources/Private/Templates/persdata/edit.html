@@ -1,0 +1,63 @@
+<f:layout name="default" />
+
+<f:section name="main">
+<f:flashMessages />
+
+<f:form method="post" action="update" name="persdata" object="{persdata}">
+	<label for="title"><f:translate key="tx_ptconference_domain_model_persdata.company" /></label><br />
+	<div class="outer-wrapper">
+		<div class="outer-field-wrapper">
+			<div class="field-wrapper type-text">
+				<f:form.textbox property="company" /><br />
+			</div>
+		</div>
+	</div>
+		
+	<label for="title"><f:translate key="tx_ptconference_domain_model_persdata.title" /></label><br />
+	<div class="outer-field-wrapper">
+		<div class="field-wrapper type-text">
+			<f:form.textbox property="title" /><br />
+		</div>
+	</div>
+	
+	<label for="title"><f:translate key="tx_ptconference_domain_model_persdata.firstname" /> <span class="required">(required)</span></label><br />
+	<div class="outer-field-wrapper">
+		<div class="field-wrapper type-text">
+			<f:form.textbox property="firstname" /><br />
+		</div>
+	</div>
+		
+	<label for="title"><f:translate key="tx_ptconference_domain_model_persdata.lastname" /> <span class="required">(required)</span></label><br />
+	<div class="outer-field-wrapper">
+		<div class="field-wrapper type-text">
+			<f:form.textbox property="lastname" /><br />
+		</div>
+	</div>
+			
+	<label for="title"><f:translate key="tx_ptconference_domain_model_persdata.email" /> <span class="required">(required)</span></label><br />
+	<div class="outer-field-wrapper">
+		<div class="field-wrapper type-text">
+			<f:form.textbox property="email" /><br />
+		</div>
+	</div>
+			
+	<label for="title"><f:translate key="tx_ptconference_domain_model_persdata.jobstatus" /></label><br />
+	<div class="outer-field-wrapper">
+		<div class="field-wrapper type-text">
+			<f:form.textbox property="jobstatus" /><br />
+		</div>
+	</div>
+			
+	<label for="title"><f:translate key="tx_ptconference_domain_model_persdata.country" /></label><br />
+	<div class="outer-field-wrapper">
+		<div class="field-wrapper type-text">
+			<f:form.textbox property="country" /><br />
+		</div>
+	</div>
+		
+	<div class="field-wrapper type-button">
+		<f:form.submit value="Save" />
+	</div>
+	
+</f:form>
+</f:section>

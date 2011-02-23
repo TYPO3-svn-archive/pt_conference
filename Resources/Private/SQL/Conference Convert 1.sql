@@ -1,0 +1,15 @@
+INSERT INTO `tx_ptconference_domain_model_persdata` (`uid`, `pid`, `company`, `title`, `firstname`, `middlename`, `lastname`, `email`, `jobstatus`, `country`, `tx_ptgsashop_orders_articles_uid`, `tx_ptgsashop_customer_uid`, `articlecode`, `checkedin`, `goodiesreceived`, `badgeprinted`, `event`, `tstamp`, `crdate`, `deleted`, `hidden`) Select `uid`,`pid`,`company`,`title`,`firstname`,`middlename`,`lastname`,`email`,`jobstatus`,`country`,`tx_ptgsashop_orders_articles_uid`,`tx_ptgsashop_customer_uid`,`articlecode`,`checked_in`,`goodies_received`,`badge_printed`,`event_uid`,`tstamp`,`crdate`,`deleted`,`hidden` from tx_ptgsaconfmgm_persdata;
+
+INSERT INTO `tx_ptconference_domain_model_relarticle` (`uid`, `pid`, `tx_ptgsashop_orders_articles_uid`, `tx_ptgsashop_customer_uid`, `articlecode`, `persdata`, `tstamp`, `crdate`, `deleted`, `hidden`) Select `uid`,`pid`,`tx_ptgsashop_orders_articles_uid`,`tx_ptgsashop_customer_uid`,`articlecode`,`tx_ptgsaconfmgm_persdata_uid`, `tstamp`,`crdate`,`deleted`,`hidden` from tx_ptgsaconfmgm_relarticle;
+
+INSERT INTO `tx_ptconference_domain_model_persarticleinfo_options` (`uid`, `pid`, `title`, `infotype`, `tstamp`, `crdate`, `deleted`, `hidden`) Select `uid`,`pid`,`title`,`infotype_uid`,`tstamp`,`crdate`,`deleted`,`hidden` from tx_ptgsaconfmgm_persarticleinfo_options;
+
+INSERT INTO `tx_ptconference_domain_model_persarticleinfo_types` (`uid`, `pid`, `title`, `description`, `inputtype`, `inputdefault`, `gsa_shop_articles`, `tstamp`, `crdate`, `deleted`, `hidden`) Select `uid`,`pid`,`title`,`description`,`inputtype`,`inputdefault`,`gsa_shop_articles`,`tstamp`,`crdate`,`deleted`,`hidden` from tx_ptgsaconfmgm_persarticleinfo_types;
+
+INSERT INTO `tx_ptconference_domain_model_persarticleinfo_values` (`uid`, `pid`, `persdata`, `relarticle`, `infovalue`, `infotype`, `tstamp`, `crdate`, `deleted`) Select `uid`,`pid`,`tx_ptgsaconfmgm_persdata_uid`,`tx_ptgsaconfmgm_relarticle_uid`, `infovalue`, `infotype_uid`,`tstamp`,`crdate`,`deleted` from tx_ptgsaconfmgm_persarticleinfo_values;
+
+INSERT INTO `tx_ptconference_domain_model_event` (`uid`, `pid`, `code`, `title`, `description`, `venue`, `startdate`, `enddate`, `tstamp`, `crdate`, `cruser_id`, `deleted`, `hidden`)
+SELECT `uid`,`pid`,`code`,`title`,`description`,`venue`,`startdate`,`enddate`,`tstamp`,`crdate`,`cruser_id`,`deleted`,`hidden` FROM tx_ptgsaconfmgm_events;
+
+# Papers
+INSERT INTO `tx_ptconference_domain_model_paper` (`pid`, `title`, `author`, `abstract`, `accepted_as_talk`, `accepted_as_tutorial`, `uploadpath`, `sendmail`, `targetos`, `targetaudience`, `tstamp`, `crdate`, `cruser_id`, `deleted`, `hidden`) SELECT `pid` ,`title`,`author`,`abstract`,`accepted_as_talk`,`accepted_as_tutorial`,`uploadpath`,`sendmail`,`targetos_id`,`targetaudience_id`,`tstamp`,`crdate`,`cruser_id`,`deleted`,`hidden` FROM tx_ptconfmgm_paper

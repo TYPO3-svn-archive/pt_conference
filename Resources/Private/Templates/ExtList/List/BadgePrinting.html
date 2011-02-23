@@ -1,0 +1,21 @@
+<div style="padding:10px; text-align:right; border:1px solid gray; margin-bottom:5px">
+	
+	<div style="float:right; padding-left:20px;">
+		<f:link.action pageUid="badgeExport" >Download selected badges</f:link.action>
+	</div>
+	
+	<div style="float:right; padding-left:20px;">
+		<f:link.action extensionName="ptconference" controller="BadgePrinting" action="exportAll" >Generate new export set</f:link.action>
+	</div>
+	
+	<div style="clear:both"></div>
+</div>
+<div>
+<table class="tx-ptextlist-list tx-ptextlist-list-standard">
+	<f:render partial="List/ListHeader" arguments="{listHeader:listHeader, listCaptions:listCaptions}" />
+	<f:render partial="List/ListBody" arguments="{listData:listData}" />
+	<f:render partial="List/AggregateRows" arguments="{aggregateRows:aggregateRows}" />
+</table>
+</div>
+
+

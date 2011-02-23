@@ -1,0 +1,13 @@
+<dl class="tx_ptgsaconfmgm_attendeeInfo">
+	<f:for each="{data}" as="dataRow">
+		<dt>{dataRow.infoTypeTitle}</dt>
+		<f:if condition="{dataRow.infoOptionTitle}">
+			<f:then>
+				<dd>{dataRow.infoOptionTitle}</dd>
+			</f:then>
+			<f:else>
+				<dd>{dataRow.persValue}</dd>
+			</f:else>
+		</f:if>
+	</f:for>
+</dl>

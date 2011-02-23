@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for the Conference Managment (extBase) extension in the FRONTEND</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_ptconference_domain_model_persdata">Personal data</label>
+			<label index="tx_ptconference_domain_model_persdata.company">Company</label>
+			<label index="tx_ptconference_domain_model_persdata.title">Title</label>
+			<label index="tx_ptconference_domain_model_persdata.firstname">Firstname</label>
+			<label index="tx_ptconference_domain_model_persdata.lastname">Lastname</label>
+			<label index="tx_ptconference_domain_model_persdata.email">Email</label>
+			<label index="tx_ptconference_domain_model_persdata.jobstatus">Jobstatus</label>
+			<label index="tx_ptconference_domain_model_persdata.country">Country</label>
+			<label index="tx_ptconference_domain_model_persdata.tx_ptgsashop_orders_articles_uid">tx_ptgsashop_orders_articles_uid</label>
+			<label index="tx_ptconference_domain_model_persdata.tx_ptgsashop_customer_uid">tx_ptgsashop_customer_uid</label>
+			<label index="tx_ptconference_domain_model_persdata.articlecode">articlecode</label>
+			<label index="tx_ptconference_domain_model_persdata.checkedin">Checked in</label>
+			<label index="tx_ptconference_domain_model_persdata.goodiesreceived">Goodies received</label>
+			<label index="tx_ptconference_domain_model_persdata.badgeprinted">Badge printed</label>
+			<label index="tx_ptconference_domain_model_persdata.event">event</label>
+			
+			<label index="tx_ptconference_domain_model_event">Events</label>
+			<label index="tx_ptconference_domain_model_event.code">Event code</label>
+			<label index="tx_ptconference_domain_model_event.title">title</label>
+			<label index="tx_ptconference_domain_model_event.description">description</label>
+			<label index="tx_ptconference_domain_model_event.venue">venue</label>
+			<label index="tx_ptconference_domain_model_event.startdate">startdate</label>
+			<label index="tx_ptconference_domain_model_event.enddate">enddate</label>
+			
+			<label index="tx_ptconference_domain_model_relarticle">relarticle</label>
+			<label index="tx_ptconference_domain_model_relarticle.tx_ptgsashop_orders_articles_uid">tx_ptgsashop_orders_articles_uid</label>
+			<label index="tx_ptconference_domain_model_relarticle.tx_ptgsashop_customer_uid">tx_ptgsashop_customer_uid</label>
+			<label index="tx_ptconference_domain_model_relarticle.articlecode">articlecode</label>
+			<label index="tx_ptconference_domain_model_relarticle.persdata">persdata</label>
+			
+			<label index="tx_ptconference_domain_model_persarticleinfo_types">Article info type</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_types.title">title</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_types.description">description</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_types.inputtype">inputtype</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_types.inputdefault">inputdefault</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_types.gsa_shop_articles">gsa_shop_articles</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_options">persarticleinfo_options</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_options.title">title</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_options.infotype">infotype</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_values">persarticleinfo_values</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_values.tx_ptgsaconfmgm_persdata_uid">tx_ptgsaconfmgm_persdata_uid</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_values.  	tx_ptgsaconfmgm_relarticle_uid">  	tx_ptgsaconfmgm_relarticle_uid</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_values.infovalue">infovalue</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_values.infotype">infotype</label>
+			
+			<label index="tx_ptconference_domain_model_paper">paper</label>
+			<label index="tx_ptconference_domain_model_paper.title">title</label>
+			<label index="tx_ptconference_domain_model_paper.author">author</label>
+			<label index="tx_ptconference_domain_model_paper.abstract">abstract</label>
+			<label index="tx_ptconference_domain_model_paper.accepted_as_talk">accepted_as_talk</label>
+			<label index="tx_ptconference_domain_model_paper.accepted_as_tutorial">accepted_as_tutorial</label>
+			<label index="tx_ptconference_domain_model_paper.uploadpath">uploadpath</label>
+			<label index="tx_ptconference_domain_model_paper.sendmail">sendmail</label>
+			<label index="tx_ptconference_domain_model_paper.targetos">targetos</label>
+			<label index="tx_ptconference_domain_model_paper.targetaudience">targetaudience</label>
+			
+			<label index="tx_ptconference_domain_model_targetos">targetos</label>
+			<label index="tx_ptconference_domain_model_targetos.title">title</label>
+			
+			<label index="tx_ptconference_domain_model_targetaudience">targetaudience</label>
+			<label index="tx_ptconference_domain_model_targetaudience.title">title</label>
+			
+			<label index="tx_ptconference_domain_model_bestpapervoting">Best paper voting</label>
+			<label index="tx_ptconference_domain_model_bestpapervoting.rating">rating</label>
+			<label index="tx_ptconference_domain_model_bestpapervoting.paper">paper</label>
+			<label index="tx_ptconference_domain_model_bestpapervoting.attendee">attendee</label>
+			
+			<label index="tx_ptconference_domain_model_checkin.scanMode1">Add</label>
+			<label index="tx_ptconference_domain_model_checkin.scanMode2">Remove</label>
+			
+			<label index="tx_ptconference_domain_model_checkin.errTicketNotInList">The ticket could not be removed because it is not in current ticket list.</label>
+			<label index="tx_ptconference_domain_model_checkin.errTicketAlreadyInList">The ticket with this code is already in the list.</label>
+			<label index="tx_ptconference_domain_model_checkin.errTicketInRestrictedList">The ticket with this code was previously processed!</label>
+
+			<label index="tx_ptconference_domain_model_receivegoodies.errTicketInRestrictedList">The ticket with this code was previously processed!</label>
+		
+			<label index="tx_ptconference_domain_model_bestPaper.errVoteExceedsRange">Your vote exceeds the allowed range and was therefore not counted.</label>
+			
+		</languageKey>
+	</data>
+</T3locallang>

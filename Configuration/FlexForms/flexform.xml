@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+<T3DataStructure>
+  <sheets>
+  
+    <!--##########################-->
+    <!-- Tab for general settings -->
+    <!--##########################-->
+    <sDefault>
+      <ROOT>
+        <TCEforms>
+          <sheetTitle>General Options</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+
+          <switchableControllerActions>
+            <TCEforms>
+              <label>Plugin type</label>
+              <config>
+                <type>select</type>
+                <items type="array">
+                  <numIndex index="1" type="array">
+                    <numIndex index="0">Best Paper Voting</numIndex>
+                    <numIndex index="1">bestPaperVoting->list;bestPaperVoting->vote;bestPaperVoting->stats</numIndex>
+                  </numIndex>
+                  <numIndex index="2" type="array">
+                    <numIndex index="0">Event</numIndex>
+                    <numIndex index="1">Event->list;Event->edit;Event->create</numIndex>
+                  </numIndex>
+             	  <numIndex index="3" type="array">
+                    <numIndex index="0">CheckIn</numIndex>
+                    <numIndex index="1">CheckIn->show;CheckIn->submit</numIndex>
+                  </numIndex>
+                  <numIndex index="4" type="array">
+                    <numIndex index="0">Best Paper Statistics</numIndex>
+                    <numIndex index="1">bestPaperVoting->stats;bestPaperVoting->list;bestPaperVoting->vote</numIndex>
+                  </numIndex>
+                  <numIndex index="5" type="array">
+                    <numIndex index="0">BadgePrinting</numIndex>
+                    <numIndex index="1">BadgePrinting->show;BadgePrinting->exportAll</numIndex>
+                  </numIndex>
+                  <numIndex index="6" type="array">
+                    <numIndex index="0">Edit PersData</numIndex>
+                    <numIndex index="1">persdata->edit;persdata->update;persdata->list</numIndex>
+                  </numIndex>
+                  <numIndex index="7" type="array">
+                    <numIndex index="0">List PersData</numIndex>
+                    <numIndex index="1">persdata->list;persdata->update;persdata->edit</numIndex>
+                  </numIndex>
+                  <numIndex index="8" type="array">
+                    <numIndex index="0">Receive Goodies</numIndex>
+                    <numIndex index="1">ReceiveGoodies->show;ReceiveGoodies->submit</numIndex>
+                  </numIndex>
+                  <numIndex index="9" type="array"> 
+                    <numIndex index="0">Best TYPO3in80chars Voting</numIndex>
+                    <numIndex index="1">BestCharVoting->list;BestCharVoting->vote;BestCharVoting->stats</numIndex>
+                  </numIndex>
+                  <numIndex index="10" type="array">
+                    <numIndex index="0">Best TYPO3in80chars Statistics</numIndex>
+                    <numIndex index="1">BestCharVoting->stats;BestCharVoting->list;BestCharVoting->vote</numIndex>
+                  </numIndex>
+                </items>
+              </config>
+            </TCEforms>
+          </switchableControllerActions>
+
+
+        </el>
+      </ROOT>
+    </sDefault>
+    
+    
+    
+    
+  </sheets>
+</T3DataStructure>

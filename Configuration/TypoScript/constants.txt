@@ -1,0 +1,27 @@
+config.pt_conference {
+
+    // Page Settings
+    
+    # cat=pt_conference::pages/enable/10; type=string; label=PersData Edit Page: PID of the page to edit persdata.
+    persdataEditPid = 
+    
+    # cat=pt_conference::pages/enable/20; type=string; label=PersData List Page: PID of the page to list persdata.
+    persdataListPid = 
+    
+    // Infotypes 
+    # cat=pt_conference::infotypes/enable/10; type=string; label=Infotype ID that contains shirt-sizes 
+    tShirtSizeInfoType = 1
+    
+    // Special Categorys
+    # cat=pt_conference::article categories/enable/10; type=string; label=Ticket Category
+    ticketCategory = 1
+    
+    # cat=pt_conference::article categories/enable/20; type=string; label=Tutorial Category
+    tutorialCategory = 2
+    
+    # cat=pt_conference::article categories/enable/30; type=string; label=Goody Category
+    goodyCategory = 3
+    
+    # cat=pt_conference::article categories/enable/40; type=string; label=Physical purchased goods, that are handed out on the goodies counter
+    physicalGoodsCategory = 5
+}

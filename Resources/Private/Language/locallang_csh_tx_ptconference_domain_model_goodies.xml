@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>Context Sensitive Help (CSH) for table tx_ptconference_domain_model_goodies</description>
+        <type>CSH</type>
+        <csh_table>tx_ptconference_domain_model_goodies</csh_table>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+			<label index="title.description">Title</label>
+			<label index="description.description">Description</label>
+			<label index="quantity.description">Quantity</label>
+			<label index="gsa_shop_articles.description">gsa_shop_articles</label>
+		</languageKey>
+    </data>
+</T3locallang>

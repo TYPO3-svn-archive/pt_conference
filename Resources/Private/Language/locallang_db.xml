@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'pt_conference'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_ptconference_domain_model_persdata">Persdata</label>
+			<label index="tx_ptconference_domain_model_persdata.company">Company</label>
+			<label index="tx_ptconference_domain_model_persdata.title">Title</label>
+			<label index="tx_ptconference_domain_model_persdata.firstname">Firstname</label>
+			<label index="tx_ptconference_domain_model_persdata.lastname">Lastname</label>
+			<label index="tx_ptconference_domain_model_persdata.email">Email</label>
+			<label index="tx_ptconference_domain_model_persdata.jobstatus">Jobstatus</label>
+			<label index="tx_ptconference_domain_model_persdata.country">Country</label>
+			<label index="tx_ptconference_domain_model_persdata.tx_ptgsashop_orders_articles_uid">Tx Ptgsashop Orders Articles Uid</label>
+			<label index="tx_ptconference_domain_model_persdata.tx_ptgsashop_customer_uid">Tx Ptgsashop Customer Uid</label>
+			<label index="tx_ptconference_domain_model_persdata.articlecode">Articlecode</label>
+			<label index="tx_ptconference_domain_model_persdata.checkedin">Checked In</label>
+			<label index="tx_ptconference_domain_model_persdata.goodiesreceived">Goodies Received</label>
+			<label index="tx_ptconference_domain_model_persdata.badgeprinted">Badge Printed</label>
+			<label index="tx_ptconference_domain_model_persdata.event">Event</label>
+			<label index="tx_ptconference_domain_model_event">Event</label>
+			<label index="tx_ptconference_domain_model_event.code">Code</label>
+			<label index="tx_ptconference_domain_model_event.title">Title</label>
+			<label index="tx_ptconference_domain_model_event.description">Description</label>
+			<label index="tx_ptconference_domain_model_event.venue">Venue</label>
+			<label index="tx_ptconference_domain_model_event.startdate">Startdate</label>
+			<label index="tx_ptconference_domain_model_event.enddate">Enddate</label>
+			<label index="tx_ptconference_domain_model_relarticle">Relarticle</label>
+			<label index="tx_ptconference_domain_model_relarticle.tx_ptgsashop_orders_articles_uid">Tx Ptgsashop Orders Articles Uid</label>
+			<label index="tx_ptconference_domain_model_relarticle.tx_ptgsashop_customer_uid">Tx Ptgsashop Customer Uid</label>
+			<label index="tx_ptconference_domain_model_relarticle.articlecode">Articlecode</label>
+			<label index="tx_ptconference_domain_model_relarticle.persdata">Persdata</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_types">Persarticleinfo Types</label>
+
+			<label index="tx_ptconference_domain_model_goodies">Conference Goodies</label>
+			<label index="tx_ptconference_domain_model_goodies.name">Name</label>
+			<label index="tx_ptconference_domain_model_goodies.description">Description</label>
+			<label index="tx_ptconference_domain_model_goodies.quantity">Quantity</label>
+			<label index="tx_ptconference_domain_model_goodies.gsa_shop_articles">Gsa Shop Articles</label>
+
+			<label index="tx_ptconference_domain_model_persarticleinfo_types">Persarticleinfo Types</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_types.title">Title</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_types.description">Description</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_types.inputtype">Inputtype</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_types.inputdefault">Inputdefault</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_types.gsa_shop_articles">Gsa Shop Articles</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_options">Persarticleinfo Options</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_options.title">Title</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_options.infotype">Infotype</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_values">Persarticleinfo Values</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_values.tx_ptgsaconfmgm_persdata_uid">Tx Ptgsaconfmgm Persdata Uid</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_values.  	tx_ptgsaconfmgm_relarticle_uid">  	Tx Ptgsaconfmgm Relarticle Uid</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_values.infovalue">Infovalue</label>
+			<label index="tx_ptconference_domain_model_persarticleinfo_values.infotype">Infotype</label>
+			<label index="tx_ptconference_domain_model_paper">Paper</label>
+			<label index="tx_ptconference_domain_model_paper.title">Title</label>
+			<label index="tx_ptconference_domain_model_paper.author">Author</label>
+			<label index="tx_ptconference_domain_model_char">TYPO3in80Chars</label>
+			<label index="tx_ptconference_domain_model_char.text">Text</label>
+			<label index="tx_ptconference_domain_model_char.author">Author</label>
+			<label index="tx_ptconference_domain_model_paper.abstract">Abstract</label>
+			<label index="tx_ptconference_domain_model_paper.accepted_as_talk">Accepted As Talk</label>
+			<label index="tx_ptconference_domain_model_paper.accepted_as_tutorial">Accepted As Tutorial</label>
+			<label index="tx_ptconference_domain_model_paper.uploadpath">Uploadpath</label>
+			<label index="tx_ptconference_domain_model_paper.sendmail">Sendmail</label>
+			<label index="tx_ptconference_domain_model_paper.targetos">Targetos</label>
+			<label index="tx_ptconference_domain_model_paper.targetaudience">Targetaudience</label>
+			<label index="tx_ptconference_domain_model_targetos">Targetos</label>
+			<label index="tx_ptconference_domain_model_targetos.title">Title</label>
+			<label index="tx_ptconference_domain_model_targetaudience">Targetaudience</label>
+			<label index="tx_ptconference_domain_model_targetaudience.title">Title</label>
+			<label index="tx_ptconference_domain_model_bestpapervoting">Best Paper Voting</label>
+			<label index="tx_ptconference_domain_model_bestpapervoting.rating">Rating</label>
+			<label index="tx_ptconference_domain_model_bestpapervoting.paper">Paper</label>
+			<label index="tx_ptconference_domain_model_bestpapervoting.attendee">Attendee</label>
+			<label index="tx_ptconference_domain_model_bestcharvoting">Best Char Voting</label>
+			<label index="tx_ptconference_domain_model_bestcharvoting.rating">Rating</label>
+			<label index="tx_ptconference_domain_model_bestcharvoting.char">TYPO3in80Chars</label>
+			<label index="tx_ptconference_domain_model_bestcharvoting.attendee">Attendee</label>
+		</languageKey>
+	</data>
+</T3locallang>

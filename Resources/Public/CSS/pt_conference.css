@@ -1,0 +1,205 @@
+.sitemapcontainer, #master {
+	width:1200px;
+}
+
+ #mainspacer {
+	width: 930px;
+}
+
+#topcontainer {
+	background: url("../images/backgrounds/bg-header.gif") no-repeat scroll left top transparent;
+}
+
+/*
+* PT_EXTLIST
+*/
+
+table.tx-ptextlist-list {
+	width: 99.9%;
+	margin-left: 1px;
+}
+
+table.tx-ptlist-list-standard th {
+	border-bottom: 1px solid #BFBFBF;
+	border-left: 1px solid #BFBFBF;
+}
+
+table.tx-ptextlist-list-standard th {
+	background: #3E3E3E;
+	border:  1px solid #bfbfbf;
+}
+
+table.tx-ptextlist-list-standard td {
+	padding: 2px 0px 2px 4px;
+	margin:  0px;
+	border:  1px solid #bfbfbf;
+	vertical-align: top;
+}
+
+
+table.tx-ptextlist-list-standard tr.odd {
+	background-color: #ffffff;
+}
+
+table.tx-ptextlist-list-standard tr.even {
+	background-color:#F5F5F5;
+}
+
+.tx-ptextlist-aggregaterow {
+	background-color: #DDDDDD;
+	font-weight: bold;
+}
+
+
+table.tx-ptextlist-list-standard {
+	border-collapse:collapse;
+	border-spacing:0;
+	font-size:12px;
+	clear:both;
+}
+
+th.tx-ptextlist-list-header {
+	padding: 4px;
+	white-space: nowrap;
+	background: #3E3E3E;
+}
+
+.tx-ptextlist-filter{
+	float: left;
+	padding: 3px;
+	list-style-type: none !important;
+}
+
+.tx-ptextlist-filters {
+	list-style-type: none !important;
+}
+
+.tx-ptextlist-filterboxcontrols {
+	float: left;
+	padding:18px 0 0 10px;
+}
+
+
+.tx-ptextlist-filterbox{
+	border:1px solid #BFBFBF; 
+	margin-bottom:20px;
+	padding:5px;
+	overflow: hidden;
+}
+
+.type-button input{
+		background-image: -moz-linear-gradient(top, #F5F5F5, #CCCCCC); /* FF3.6 */
+		background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #F5F5F5),color-stop(1, #CCCCCC)); /* Saf4+, Chrome */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#F5F5F5', EndColorStr='#CCCCCC'); /* IE6,IE7 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#F5F5F5', EndColorStr='#CCCCCC')"; /* IE8 */
+		border: 1px solid #000000 !important;
+		border-top-color: #DDDDDD !important;
+		border-right-color: #AAAAAA !important;
+		border-bottom-color: #AAAAAA !important;
+		border-left-color: #DDDDDD !important;
+		border-radius: 12px;
+		-moz-border-radius: 12px;
+		-webkit-border-radius: 12px;
+		color: #333333;
+		cursor: pointer;
+		margin: 0 1em 0 0;
+		padding: 2px 6px;
+	}
+	
+.type-button:hover input {
+		background-image: -moz-linear-gradient(top, #CCCCCC, #F5F5F5); /* FF3.6 */
+		background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #CCCCCC),color-stop(1, #F5F5F5)); /* Saf4+, Chrome */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#CCCCCC', EndColorStr='#F5F5F5'); /* IE6,IE7 */
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#CCCCCC', EndColorStr='#F5F5F5')"; /* IE8 */
+		border-top-color: #AAAAAA !important;
+		border-right-color: #DDDDDD !important;
+		border-bottom-color: #DDDDDD !important;
+		border-left-color: #AAAAAA !important;
+		color: #000000;
+	}
+	
+	.type-select{
+		border: 1px solid #000000 !important;
+		border-top-color: #DDDDDD !important;
+		border-right-color: #AAAAAA !important;
+		border-bottom-color: #AAAAAA !important;
+		border-left-color: #DDDDDD !important;
+	}
+	
+	.redBox {
+		background-color: red;
+		width:32px;
+		height:47px;
+	}
+	
+	.greenBox {
+		background-color: green;
+		width:32px;
+		height:44px;
+	}
+	
+	.grayBox {
+		background-color: #AAAAAA;
+		width:32px;
+		height:44px;
+	}
+	
+	.tx-ptextlist-field-paymentIndicatorColumn {
+		padding: 0 !important;	
+	}
+	
+	label {
+		font-weight: bold;
+	}
+	
+	.tx-ptextlist-list-header {
+		color: #DDDDDD;
+	}
+	
+	.tx-ptextlist-field-sumOpenColumn, .tx-ptextlist-field-sumPaidColumn, .tx-ptextlist-field-sumGrossColumn, .tx-ptextlist-field-sumCancledColumn {
+		text-align: right;
+	}
+	
+	.pt-extlist-pager {
+		text-align: center;
+	}
+	
+	.pt-extlist-pager-item-display {
+		padding-top:4px;
+	}
+	
+.errMessage {
+	border-top: 1px solid #9C3131;
+	border-bottom: 1px solid #9C3131;
+	padding: 3px;
+	margin: 5px;
+	font-weight: bold;
+	background-color: #F4CFCF;
+	color: #9C3131;
+	min-height: 16px;
+	text-align: center;
+}
+
+.sucMessage {
+	border-top: 1px solid green;
+	border-bottom: 1px solid green;
+	padding: 3px;
+	background-color: #C8FFC8;
+	margin: 5px;
+	font-weight: bold;
+	color: Green;
+	min-height: 16px;
+	text-align: center;
+}
+
+
+/*
+Special Columns
+*/
+.tx-ptextlist-field-count {
+	width: 30px;
+}
+
+.tx-ptextlist-field-typeName {
+	width:200px;
+}

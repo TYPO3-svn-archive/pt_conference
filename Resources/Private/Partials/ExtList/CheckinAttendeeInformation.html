@@ -1,0 +1,9 @@
+<dl class="tx_ptgsaconfmgm_attendeeInfo">
+	<f:for each="{data}" as="dataRow">
+		<p>
+		<dt>Ticket Type</dt><dd>{dataRow.articleArtNo}</dd>
+		<dt>Ticket Code</dt><dd>{dataRow.ticketCode}</dd>
+		<dt>Name</dt><dd>{dataRow.firstName} {dataRow.lastName}</dd>
+		</p>
+	</f:for>
+</dl>

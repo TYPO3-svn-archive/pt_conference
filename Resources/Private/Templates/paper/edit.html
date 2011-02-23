@@ -1,0 +1,29 @@
+<f:layout name="default" />
+
+This template displays a EDIT form for the current domain object.
+
+<f:section name="main">
+<h1>Edit paper</h1>
+
+<f:flashMessages />
+
+<f:render partial="formErrors" />
+
+<f:form method="post" action="update" name="paper" object="{paper}">
+	<label for="title"><f:translate key="tx_ptconference_domain_model_paper.title" /> <span class="required">(required)</span></label><br />
+	<f:form.textbox property="title" /><br />
+	<label for="title"><f:translate key="tx_ptconference_domain_model_paper.author" /> <span class="required">(required)</span></label><br />
+	<f:form.textbox property="author" /><br />
+	<label for="title"><f:translate key="tx_ptconference_domain_model_paper.abstract" /></label><br />
+	<f:form.textbox property="abstract" /><br />
+	<label for="title"><f:translate key="tx_ptconference_domain_model_paper.accepted_as_talk" /></label><br />
+	<f:form.textbox property="accepted_as_talk" /><br />
+	<label for="title"><f:translate key="tx_ptconference_domain_model_paper.accepted_as_tutorial" /></label><br />
+	<f:form.textbox property="accepted_as_tutorial" /><br />
+	<label for="title"><f:translate key="tx_ptconference_domain_model_paper.uploadpath" /></label><br />
+	<f:form.textbox property="uploadpath" /><br />
+	<label for="title"><f:translate key="tx_ptconference_domain_model_paper.sendmail" /></label><br />
+	<f:form.textbox property="sendmail" /><br />
+	<f:form.submit value="Edit" />
+</f:form>
+</f:section>

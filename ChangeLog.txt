@@ -1,0 +1,109 @@
+# This changelog file is automatically written by git and holds the git commit message history.
+# Do not edit the file manually!
+
+9400ec3 2010-11-19 15:48:48 +0100 (Daniel Lienert) message: CHG: plugin.tx_ptextlist.settings.listConfig.invoices.ts / add sum net
+a140451 2010-11-19 13:43:33 +0100 (Daniel Lienert) message: CHG: Invoice list export
+15849f5 2010-11-19 13:07:27 +0100 (Daniel Lienert) message: Changes Ticketscannerfilter to fit to the filter interface
+9db15a3 2010-10-10 01:53:40 +0200 (Daniel Lienert) message: CHG: Invoice list to display cancled invoices
+3de72b7 2010-10-10 01:36:46 +0200 (Daniel Lienert) message: FIX: Bug in Invoice Filter
+2066391 2010-10-06 13:10:18 +0200 (Daniel Lienert) message: FIX: Call of undefined method in CheckInController
+eeb60a1 2010-10-06 12:46:14 +0200 (Daniel Lienert) message: CHG: Badgeprinting - add filter for already checked in attendees
+0dd2d16 2010-10-05 19:06:21 +0200 (Daniel Lienert) message: TEST
+161b88b 2010-10-05 19:03:33 +0200 (Daniel Lienert) message: TEST
+a7f86ba 2010-10-05 19:00:44 +0200 (Daniel Lienert) message: ADD: Productlist and export
+f2e011d 2010-10-05 17:54:53 +0200 (Daniel Lienert) message: ADD: Product  list
+7bff842 2010-10-05 00:50:14 +0200 (Daniel Lienert) message: CHG: Made article categorys configurable by ts
+c93894f 2010-10-05 00:30:05 +0200 (Daniel Lienert) message: CHG: Made t-shirt infotype configurable for conference
+3fc4acf 2010-10-04 23:42:15 +0200 (Daniel Lienert) message: FIX: Make sure subquerys return only one line
+f8336ae 2010-10-04 13:11:25 +0200 (Daniel Lienert) message: FIX: Limits in best paper voting ADD: tests for bestpapervoting
+39c2ca5 2010-10-04 12:39:43 +0200 (Daniel Lienert) message: CHG: Moved ticketVoucher in seperate file
+79db4f2 2010-10-04 12:39:21 +0200 (Daniel Lienert) message: CHG: Moved ticketVoucher in seperate file
+8930a3f 2010-10-04 12:29:57 +0200 (Daniel Lienert) message: CHG: Voucher stats now showing customer, added filter
+a6f9144 2010-10-02 14:42:28 +0200 (Daniel Lienert) message: FIX: Votings
+03543f5 2010-09-26 04:42:45 +0200 (Daniel Lienert) message: Removed validation from persdatäa
+7726881 2010-09-26 03:04:23 +0200 (Daniel Lienert) message: ADD. Filer to invoiceList
+4ac1ffb 2010-09-26 00:07:19 +0200 (Daniel Lienert) message: CHG: Additional Filter for Lastname
+34aa6f0 2010-09-25 23:55:57 +0200 (Daniel Lienert) message: Persdata records have now a hash over the badge printing information
+c8c7f1e 2010-09-25 22:24:18 +0200 (Daniel Lienert) message: ADD: CheckedIn Filter to AttendeeList
+6e83185 2010-09-25 22:16:35 +0200 (Daniel Lienert) message: CHG: CheckinList to show tickets that are also on the same invoice
+6823629 2010-09-25 16:06:57 +0200 (Daniel Lienert) message: ADD: SQL for Papers
+e631ecd 2010-09-25 04:22:49 +0200 (Daniel Lienert) message: CHG: Template for goodies received
+5a38eed 2010-09-25 04:19:29 +0200 (Daniel Lienert) message: ADD Goodies Received Counter
+46b171a 2010-09-24 17:17:55 +0200 (Daniel Lienert) message: CHG: Goodies Table
+daf86cd 2010-09-24 16:45:58 +0200 (Daniel Lienert) message: ADD: conference goodies table
+be4300e 2010-09-24 16:08:44 +0200 (Daniel Lienert) message: FIX: Checkincontrollercommands now case insensitive
+552fb15 2010-09-21 04:09:49 +0200 (Daniel Lienert) message: MERGE: Typo3IN80Chars
+fc16e3d 2010-09-23 14:49:03 +0200 (Christoph Ehscheidt) message: CHG: TYPO3in80chars voting
+4ddd4a9 2010-09-23 13:37:55 +0200 (Christoph Ehscheidt) message: ADD: added flexform options
+62e2d5b 2010-09-23 13:37:31 +0200 (Christoph Ehscheidt) message: ADD: char voting tables
+c855842 2010-09-23 13:29:03 +0200 (Christoph Ehscheidt) message: ADD: TCA for TYPO3in80chars voting
+53e42e9 2010-09-23 13:13:45 +0200 (Christoph Ehscheidt) message: DEL: renaming controller
+6d370c7 2010-09-23 13:12:54 +0200 (Christoph Ehscheidt) message: CHG: controller implementation
+bf6dd9f 2010-09-23 13:04:06 +0200 (Christoph Ehscheidt) message: ADD: new classes for TYPO3in80chars voting
+32e4cfc 2010-09-23 12:33:23 +0200 (Christoph Ehscheidt) message: :Merge branch 'master' of ssh://devel/var/git/typo3/extensions/customer/pt_conference
+c31bf07 2010-09-23 12:32:31 +0200 (Christoph Ehscheidt) message: FIX: TS ending brackets errors
+7f69a77 2010-09-21 04:06:23 +0200 (Daniel Lienert) message: CHG: receiveGoodies
+d3aaf48 2010-09-21 02:01:18 +0200 (Daniel Lienert) message: FIX: Tests
+cc8ffa9 2010-09-21 01:56:59 +0200 (Daniel Lienert) message: ADD: Skeleton for goodies receive counter
+db4cb2f 2010-09-20 13:31:20 +0200 (Daniel Lienert) message: FIX: Flashmessages BUG (AAAARGH)
+e5d7422 2010-09-20 13:27:50 +0200 (Christoph Ehscheidt) message: CHG: attendeeList TS
+3d809b5 2010-09-20 12:00:07 +0200 (Christoph Ehscheidt) message: CHG: persdata edit link. ADD: constants
+227242a 2010-09-20 11:58:53 +0200 (Christoph Ehscheidt) message: ADD: A abstract controller for listcontroller creation
+1595831 2010-09-19 11:36:56 +0200 (Daniel Lienert) message: CHG: Finished Checkin Counter. NEXT: Refactoring TicketScanner
+f4e14c0 2010-09-19 03:49:06 +0200 (Daniel Lienert) message: CHG: Checkin -> Added Lists as Subcontrollers
+bb55d04 2010-09-19 03:48:33 +0200 (Daniel Lienert) message: ADD: HTML Decode ViewHelper
+d065bf9 2010-09-19 02:45:47 +0200 (Daniel Lienert) message: ADD: export for attendees
+d7fbd28 2010-09-19 02:34:31 +0200 (Daniel Lienert) message: Merge branch 'master' of ssh://devel.intern.punkt.de/var/git/typo3/extensions/customer/pt_conference
+6a38725 2010-09-21 12:25:59 +0200 (Christoph Ehscheidt) message: Merge branch 'master' of file:///var/git/typo3/extensions/customer/pt_conference
+764f111 2010-09-21 12:25:56 +0200 (Christoph Ehscheidt) message: ADD: listConfigs for editing articles and relatedData
+ee38e2c 2010-09-20 14:28:00 +0200 (Christoph Ehscheidt) message: ADD: event sql convert
+89afc9d 2010-09-19 02:34:20 +0200 (Daniel Lienert) message: ADD: Tutorial Filter to attendeeList
+854dead 2010-09-18 23:23:29 +0200 (Daniel Lienert) message: CHG: Badge Export
+7ec79ae 2010-09-18 23:01:06 +0200 (Daniel Lienert) message: CHG: Template for Attendee Editing
+33dff92 2010-09-18 22:27:45 +0200 (Daniel Lienert) message: CHG: Some Changes for Badge Export
+76c0f60 2010-09-18 00:27:33 +0200 (Daniel Lienert) message: CHG: badgePrintingList
+a2faf8e 2010-09-16 20:41:49 +0200 (Daniel Lienert) message: -- LAMPE AUS !!!!
+ba67dca 2010-09-16 20:39:36 +0200 (Daniel Lienert) message: CHG: Badge Export
+485145a 2010-09-16 20:11:45 +0200 (Daniel Lienert) message: ADD: Badge printing
+4052a90 2010-09-16 14:11:54 +0200 (Daniel Lienert) message: RFT: Changed xlass names
+ae2cb0a 2010-09-16 14:06:21 +0200 (Daniel Lienert) message: RFT: Moved Extlist out of domain
+dffd7b7 2010-09-15 17:31:05 +0200 (Daniel Lienert) message: MERGE setup.txt
+ce4df7d 2010-09-15 17:30:00 +0200 (Daniel Lienert) message: ADD: badgeprinting and many other things ... :)
+1face66 2010-09-15 15:41:36 +0200 (Christoph Ehscheidt) message: ADD: stats list config
+370c1ab 2010-09-15 13:51:00 +0200 (Christoph Ehscheidt) message: DEL: unused user function
+2fb7cbe 2010-09-15 13:50:26 +0200 (Christoph Ehscheidt) message: ADD: BestPaperVoting: Configs, Icons
+a9e3824 2010-09-15 13:49:32 +0200 (Christoph Ehscheidt) message: ADD: BestPaperRating: Stats, Voting
+6ce61a9 2010-09-11 01:31:08 +0200 (Daniel Lienert) message: ADD: InvoiceFiler ADD: Listconfig for purchasedTutorials ADD Listconfig for export invoices
+28856cd 2010-09-10 09:18:46 +0200 (Daniel Lienert) message: ADD: extlist filter for ticketcodes
+93e6809 2010-09-09 21:51:59 +0200 (Daniel Lienert) message: CHG: Checkin Controller and Model
+d73c606 2010-09-09 21:51:34 +0200 (Daniel Lienert) message: ADD: TranslatedFlashMessageViewHelper
+a26b98b 2010-09-09 14:29:02 +0200 (Daniel Lienert) message: ADD: Counter classes CHG: TicketSCanner and Tests
+f37e185 2010-09-08 19:14:55 +0200 (Daniel Lienert) message: ADD: Models for Counter
+81699d8 2010-09-08 19:14:36 +0200 (Daniel Lienert) message: ADD: Factory for TicketScanner
+dad7917 2010-09-08 18:43:45 +0200 (Daniel Lienert) message: ADD: Model TicketScanner with tests
+17d507d 2010-09-08 15:33:37 +0200 (CodeMonkey) message: TASK: TEST CRASSSHES!
+ebf6015 2010-09-08 15:23:36 +0200 (Daniel Lienert) message: ADD: CheckinController an Template
+0f5a998 2010-09-08 14:26:17 +0200 (Daniel Lienert) message: RMV: unused gif icons
+b92f2bb 2010-09-08 14:25:03 +0200 (Daniel Lienert) message: CHG: Backend ICons
+d93a20e 2010-09-07 12:56:41 +0200 (Daniel Lienert) message: ADD: attendeeList and partial
+67244df 2010-09-07 11:11:22 +0200 (Daniel Lienert) message: Merge branch 'master' of ssh://devel.intern.punkt.de/var/git/typo3/extensions/customer/pt_conference
+56ace72 2010-09-07 11:11:06 +0200 (Daniel Lienert) message: ADD: listConfig for tShirtSizes and purchasedTickets
+ae15c20 2010-09-06 11:55:04 +0200 (Christoph Ehscheidt) message: CHG: RatingRepository
+669d240 2010-09-06 10:27:59 +0200 (Christoph Ehscheidt) message: CHG: BestPaperVotingController
+37710e1 2010-09-06 09:42:57 +0200 (Christoph Ehscheidt) message: FIX: scaffolding typos
+7e76efe 2010-09-06 09:30:40 +0200 (Christoph Ehscheidt) message: Merge branch 'master' of ssh://devel/var/git/typo3/extensions/customer/pt_conference
+c93da05 2010-09-06 09:30:02 +0200 (Christoph Ehscheidt) message: CHG: comments
+0efb5c5 2010-09-05 16:56:42 +0200 (Daniel Lienert) message: RMV: plugin.tx_extptlist.settings.listConfig.invoices.ts
+413195e 2010-09-05 16:56:21 +0200 (Daniel Lienert) message: CHG: UserFunctions
+58b84e4 2010-09-05 16:44:23 +0200 (Daniel Lienert) message: ADD: attendee List
+bd60c32 2010-09-05 16:44:01 +0200 (Daniel Lienert) message: ADD: List for Invoices
+4e3f277 2010-09-01 16:48:39 +0200 (Daniel Lienert) message: RMV plugin.tx_extptlist.listConfig.invoices.ts
+c8e4d5d 2010-09-01 16:46:16 +0200 (Daniel Lienert) message: ADD: ExtList configuration for invoices list
+71800c9 2010-09-01 11:19:47 +0200 (Daniel Lienert) message: FIX SQL
+55a2ef3 2010-09-01 11:14:51 +0200 (Daniel Lienert) message: TASK: Merge
+f8c9f15 2010-09-01 11:12:01 +0200 (Daniel Lienert) message: FIX: SqlConvert skript and ext_tables
+5a4c296 2010-09-01 10:59:05 +0200 (Daniel Lienert) message: ADD: Sql converter script from old tables to new extbase tables
+45fac54 2010-09-01 10:47:20 +0200 (Christoph Ehscheidt) message: ADD: Basic test
+fe3b042 2010-09-01 10:37:52 +0200 (Christoph Ehscheidt) message: CHG: Flexform
+f28e4a5 2010-09-01 10:34:34 +0200 (Christoph Ehscheidt) message: ADD: Flexform
+91bdb3e 2010-08-31 17:00:48 +0200 (Daniel Lienert) message: Initial commit after kickstart
